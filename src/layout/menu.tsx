@@ -10,6 +10,7 @@ function Menu() {
           flexDirection: "row",
           gap: "10px",
           marginTop: "20px",
+          listStyle: "none",
         }}
       >
         <li>

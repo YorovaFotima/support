@@ -5,7 +5,7 @@ import {
   QuestionPage,
   QuestionsPage,
 } from "./pages";
-import { Layout } from "./layout/layout";
+import { Layout } from "./layout";
 
 const router = createBrowserRouter([
   {
