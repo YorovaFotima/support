@@ -5,23 +5,30 @@ import {
   QuestionPage,
   QuestionsPage,
 } from "./pages";
+import { Layout } from "./layout/layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <DashboardPage />,
-  },
-  {
-    path: "/questions",
-    element: <QuestionsPage />,
-  },
-  {
-    path: "/question",
-    element: <QuestionPage />,
-  },
-  {
-    path: "/add-question",
-    element: <AddQuestionPage />,
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <DashboardPage />,
+      },
+      {
+        path: "/questions",
+        element: <QuestionsPage />,
+      },
+      {
+        path: "/question",
+        element: <QuestionPage />,
+      },
+      {
+        path: "/add-question",
+        element: <AddQuestionPage />,
+      },
+    ],
   },
 ]);
 
