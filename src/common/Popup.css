@@ -1,0 +1,18 @@
+.popup-wrapper {
+  background: #000;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+}

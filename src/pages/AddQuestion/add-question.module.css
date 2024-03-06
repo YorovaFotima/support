@@ -1,0 +1,50 @@
+.addQuestionPage {
+  margin: 10px;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.input,
+.select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: #007bff;
+  /* Highlight border on focus */
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Smoother transition on hover */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
