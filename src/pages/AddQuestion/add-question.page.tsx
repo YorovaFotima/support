@@ -7,7 +7,7 @@ import { Popup } from '../../common';
 function AddQuestionPage() {
   const [title, setTitle] = useState<string>("");
   const [description, setDescription] = useState<string>("");
-  const [category, setCategory] = useState<QuestionCategory>(QuestionCategory.TECHNICAL_SUPPORT);
+  const [category, setCategory] = useState<QuestionCategory>(QuestionCategory.REACT);
 
   const saveQuestionToLocalStorage = (question: AddQuestionDto) => {
 

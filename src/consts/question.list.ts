@@ -7,29 +7,25 @@ interface QuestionCategoryInfo {
 
 const questionCategoryList: QuestionCategoryInfo[] = [
   {
-    value: QuestionCategory.TECHNICAL_SUPPORT,
-    name: "Technical Support",
+    value: QuestionCategory.REACT,
+    name: "react",
   },
   {
-    value: QuestionCategory.PRODUCT_INQUIRIES,
-    name: "Product or Service Inquiries",
+    value: QuestionCategory.HOOKS,
+    name: "hooks",
   },
   {
-    value: QuestionCategory.ACCOUNT_ASSISTANCE,
-    name: "Account Assistance",
+    value: QuestionCategory.DOM,
+    name: "DOM",
   },
   {
-    value: QuestionCategory.TROUBLESHOOTING,
-    name: "Troubleshooting",
+    value: QuestionCategory.JSX,
+    name: "JSX",
   },
   {
-    value: QuestionCategory.FEEDBACK_SUGGESTIONS,
-    name: "Feedback and Suggestions",
-  },
-  {
-    value: QuestionCategory.OTHER,
-    name: "Other",
+    value: QuestionCategory.PROPS,
+    name: "props",
   },
 ];
 
-export { questionCategoryList, type QuestionCategoryInfo};
+export { questionCategoryList, type QuestionCategoryInfo };
