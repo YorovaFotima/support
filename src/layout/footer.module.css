@@ -1,0 +1,11 @@
+.container_footer {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(186, 153, 133);
+    flex-direction: column;
+    align-items: center;
+}
+.container_footer p{
+    color: white;
+}

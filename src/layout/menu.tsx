@@ -3,7 +3,6 @@
 function Menu() {
   return (
     <div>
-      <h1>Menu</h1>
       <ul
         style={{
           display: "flex",
@@ -11,6 +10,7 @@ function Menu() {
           gap: "10px",
           marginTop: "20px",
           listStyle: "none",
+          backgroundColor : "rgb(186, 153, 133)",
         }}
       >
         <li>

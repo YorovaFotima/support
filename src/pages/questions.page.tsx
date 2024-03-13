@@ -10,7 +10,10 @@ function QuestionsPage() {
     existingQuestions && setQuestions(existingQuestions)
   },[])
   
-  return <>QuestionsPage</>;
+  return <QuestionsPage/>
+    
+
+
 }
 
 export { QuestionsPage };
