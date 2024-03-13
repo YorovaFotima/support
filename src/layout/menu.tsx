@@ -10,7 +10,7 @@ function Menu() {
           gap: "10px",
           marginTop: "20px",
           listStyle: "none",
-          backgroundColor : "rgb(186, 153, 133)",
+          // backgroundColor : "rgb(186, 153, 133)",
         }}
       >
         <li>

@@ -5,15 +5,16 @@ function QuestionsPage() {
   const [questions, setQuestions] = useState<QuestionDto[]>([]);
 
   useEffect(() => {
-    const existingQuestionsJson = localStorage.getItem('questions');
-    const existingQuestions: QuestionDto[] = existingQuestionsJson ? JSON.parse(existingQuestionsJson) : null;
-    existingQuestions && setQuestions(existingQuestions)
-  },[])
-  
-  return <QuestionsPage/>
-    
+    const existingQuestionsJson = localStorage.getItem("questions");
+    const existingQuestions: QuestionDto[] = existingQuestionsJson
+      ? JSON.parse(existingQuestionsJson)
+      : null;
+    existingQuestions && setQuestions(existingQuestions);
+  }, []);
 
+  console.log(questions);
 
+  return <>Questions</>;
 }
 
 export { QuestionsPage };
