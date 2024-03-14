@@ -3,7 +3,7 @@ import { Menu } from "./menu";
 function Header() {
   return (
     <header className={styles.menu1}>
-      <h3>SUPPORT</h3>
+      <h2>SUPPORT</h2>
       <nav>
         <Menu />
       </nav>

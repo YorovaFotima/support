@@ -6,7 +6,15 @@ function Layout() {
   return (
     <>
       <Header />
-      <main>
+      <main style={{
+        backgroundColor: "white",
+        margin: "20px",
+        // width: "100vw",
+        height: `calc(100vh - 170px)`
+
+
+      }}>
+
         <Outlet />
       </main>
       <Footer />
